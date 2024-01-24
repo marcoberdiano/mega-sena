@@ -63,7 +63,7 @@ let numeros = [
 
 function calculateBetValue(){
     betValue.innerText = valueBet[MAX_NUMBER];
-    if(valueBetDiv){
+    if(valueBetDiv[0].classList.contains('hidden')){
         valueBetDiv[0].classList.remove('hidden');    
     }
 }
